@@ -4,7 +4,7 @@
     <title>Bem-Vindo ao Cinema</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Arial;
             text-align: center;
             background-image: url('https://static.alphacoders.com/thumbs_categories/20.jpg');
             background-size: cover;
@@ -33,8 +33,8 @@
 </head>
 <body>
     <div class="welcome-container">
-        <h1 class="welcome-text">Bem-Vindo ao Cinema</h1>
-        <button class="access-button">Acessar</button>
+        <h1 class="welcome-text">Bem-Vindo ao Cinema Movies Pelé</h1>
+        <a href="{{ route('login') }}" class="btn btn-primary">Login<button class="access-button">Acesse por aqui!</button></a>
     </div>
 </body>
 </html>
